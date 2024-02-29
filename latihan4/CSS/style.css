@@ -1,0 +1,64 @@
+/* ini adalah eksternal css */
+p{
+    color: crimson;
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12pt;
+}
+body{
+    background-color: aquamarine;
+    background-image:url('../img/jjg.jpg');
+    background-repeat: no-repeat ;
+    background-size: cover;
+}
+fieldset, legend {
+    border-width: 1px;
+    border-color: chartreuse;
+    border-radius: 30px;
+}
+legend {
+    padding: 10px;
+    background-color: darkgoldenrod;
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 14pt;
+}
+table{
+    border: 5px;
+    margin: auto;
+}
+tr{
+    padding: 5px;
+    border: 1px solid green;
+}
+tr:hover{
+    background-color: brown;
+    color: darkslategray;
+    font-size: 20pt;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+
+}
+/*contoh selector id dpat masuk ke semua tag */
+#paragraph {
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    color: aqua;
+}
+/* contoh id yng dikhususkan untuk li */
+/* li#paragraph{
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    color: aqua;
+} */
+ul, li, .item:link, a.item:visited, a.item:active {
+    text-decoration: none; /* menghilangkan garis pada link */
+    list-style: none; /* menghilngkn titik pd list*/
+    display: block; /* mendisplay a sebagai block */
+    float: left; /* memposisikan a untuk ke bagian kiri */
+    padding: 2px 3px; /* memberi jarak dn membentuk persegi */
+    background-color: white; /* mewarnai block */
+}
